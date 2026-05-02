@@ -1,5 +1,5 @@
-# Use the official Node.js image as the base
-FROM node:18-alpine
+# Use Node.js version 20 (Required for Next.js)
+FROM node:20-alpine
 
 # Set the working directory inside the server
 WORKDIR /app
